@@ -1,6 +1,6 @@
 <?php
 
-require_once 'php/config.php';
+require_once (dirname(__DIR__).'Bianchi_università\php\config.php');
 $conn = new mysqli(
     $config["mysql_host"],
     $config["mysql_user"],
