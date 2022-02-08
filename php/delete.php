@@ -1,6 +1,6 @@
 <?php
 
-require_once (dirname(__DIR__).'Bianchi_università\php\config.php');
+require_once(dirname(__DIR__) . 'Bianchi_università\php\config.php');
 $conn = new mysqli(
     $config["mysql_host"],
     $config["mysql_user"],
@@ -12,22 +12,25 @@ if ($conn->connect_error) {
     die("Errore di connessione al database.<br>");
 }
 
-echo ("<!DOCTYPE html>
+echo ("
+    <!DOCTYPE html>
     <html lang='it'>
     
     <head>
         <meta charset='UTF-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <title>Document</title>
+        <title>Eliminazione studente</title>
     </head>
     
     <body>
+        <form action='dataDelete.php' method='post'>");
     
-        <a href='php/insert.php'><button>Inserisci studente</button></a>
-        <a href='php/delete.php'><button>Elimina studente</button></a>
     
+    
+echo ("
+        </form>
     </body>
     
-    </html>"
-);
+    </html>
+");

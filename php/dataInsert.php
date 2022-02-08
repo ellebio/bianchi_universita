@@ -1,6 +1,6 @@
 <?php
 
-require_once (dirname(__DIR__).'Bianchi_università\php\config.php');
+require_once(dirname(__DIR__) . 'Bianchi_università\php\config.php');
 $conn = new mysqli(
     $config["mysql_host"],
     $config["mysql_user"],
@@ -35,7 +35,7 @@ if (
         die("errore nell'inserimento dello studente");
     }
 
-    echo("
+    echo ("
         <!DOCTYPE html>
         <html lang='it'>
         

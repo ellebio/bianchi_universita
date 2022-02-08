@@ -24,7 +24,7 @@ echo("
     </head>
     
     <body>
-        <form action='data.php' method='post'>
+        <form action='dataInsert.php' method='post'>
             <label for='fName'>Nome:</label><input type='text' name='fName' id='fName'><br>
             <label for='fName'>Cognome:</label><input type='text' name='lName' id='lName'><br>
             <label for='fName'>Età:</label><input type='number' name='age' id='age' min=0 max=120><br>
