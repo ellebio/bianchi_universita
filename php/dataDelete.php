@@ -50,3 +50,12 @@ if (
         </html>
     ");
 }
+
+# TODO
+/*
+    $rows = $conn->affected_rows 
+    if($rows == 0){
+        $msg = urlencode("L'operazione non è andata a buon fine");
+        header("Location:errorPage.php?error=$msg&url_sent=delete.php");
+    }
+*/
