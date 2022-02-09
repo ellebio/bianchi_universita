@@ -49,6 +49,7 @@ if (
         <body>
             <h3>Studente inserito correttamente!</h3><br>
             <a href='insert.php'><button>Inserisci di nuovo</button></a>
+            <a href='../index.php'><button>Home</button></a>
         </body>
         
         </html>

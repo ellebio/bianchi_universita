@@ -43,7 +43,8 @@ if (
         
         <body>
             <h3>Studente eliminato correttamente!</h3><br>
-            <a href='delete.php'><button>Inserisci di nuovo</button></a>
+            <a href='delete.php'><button>Elimina di nuovo</button></a>
+            <a href='../index.php'><button>Home</button></a>
         </body>
         
         </html>
